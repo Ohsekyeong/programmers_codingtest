@@ -1,0 +1,6 @@
+function solution(n) {
+    a= String(n).split("") // n을 문자열로 받고 spilt("")으로 배열로 변경 spilt에 아무것도 입력하지 않으면 배열로 바뀜. 
+    
+    return Number(a.sort((a,b) => b-a).join(''))  // .sort((a,b) => b-a)) 를 통해 내림차순으로 정렬하고 join('')으로 배열을 하나의 문자열로 만들어줌. 그리고 Number()로 숫자로 변환해줌. 
+    
+}
